@@ -1,0 +1,23 @@
+{
+  "name": "vite-node-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "go": "dotenv -e .env.local -- pnpm vite-node src/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "dotenv-cli": "^7.4.2",
+    "eslint": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "prettier": "^3.3.3",
+    "typescript": "5.6.2",
+    "vite-node": "^2.1.1"
+  },
+  "packageManager": "pnpm@8.6.12+sha512.1336b80b948efd7979218a33ba96d9e4d380e6578144f6319979977deec6e3fe2e0a444b864b3ce2b077dda8adc4d654fee32b9c31868f0acb92da0abcf8ea1c"
+}
