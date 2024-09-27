@@ -14,8 +14,5 @@
 ## usage
 
 ```sh
-pnpm go --filename="guestZ" \
-  --prompt="hostA and hostB interviewing guestZ" \
-  --speakers=3 \
-  --url="someAudioUrl"
+pnpm go --arg1="whatever" --arg2="if any"
 ```
